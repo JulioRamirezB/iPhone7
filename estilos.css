@@ -1,0 +1,558 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    
+}
+
+
+header{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    color: white;
+    background-color: rgba(6, 6, 6, .7);
+    /* margin-top: 20px; */
+}
+header nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    width: 100%;
+    /* border: 1px solid blue; */
+}
+header nav .header{
+    display: flex;
+    justify-content: flex-end;
+    /* border: 1px solid black; */
+    width: auto;
+}
+
+header nav .header li{
+    margin-right: 20px;
+    list-style: none;
+    color: gray;
+    /* border: 1px solid red; */
+}
+header nav .header li a{
+    text-decoration: none;
+    color: white;        
+}
+
+figure{
+    display: flex;
+    justify-content: space-evenly;    
+}
+
+
+.logo .i{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.iPhone7{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+    
+}
+body section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body .iphone{
+    width: 450px;
+    height: 100%;
+    border-radius: 18px;
+    border: 2px solid gainsboro;
+    background-image: url(https://i.postimg.cc/pLMQx87b/Background.jpg);
+    background-size: cover;
+}
+.barra-bloqueado{
+    display: flex;
+    width: 100%;
+    height: 20px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+    
+}
+section .barra{
+    display: flex;
+    width: 100%;
+    height: 20px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;    
+}
+.bateria{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    margin-right: 8px;
+}
+
+figure .bateria-logo{
+    margin: 0;
+    /* border: 1px solid red; */
+    height: 20px;
+}
+.señales{
+    display: flex;    
+}
+.señales i,
+.bateria-logo i{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+.touch-codigo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 450px;
+    height: 100px;
+}
+
+.touch-codigo .touch{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    /* border: 1px solid red   ; */
+
+}
+.touch-codigo .huella{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    /* border: 1px solid red   ; */
+
+}
+.touch-codigo .code{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.code i{
+    font-size: 20px;
+    color: rgba(128, 128, 128, .55);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.touch-codigo .touch p,
+.touch-codigo .huella p{
+    margin: 0;
+    font-size: 12px;
+}
+
+.mensaje-codigo p{
+    margin: 0;
+    font-size: 25px;
+}
+.numeros{
+    width: 70px;
+    height: 70px;
+    /* border: 1px solid rgba(245, 245, 245, .9); */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgba(6, 6, 6, .7);
+    background-color: rgba(245, 245, 245, .7);
+    /* letter-spacing: .2px; */
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.numeros:hover{
+    transform: scale(1.1);
+    color: white;
+}
+.numeros:hover .letras{
+    color: white;
+}
+#text:hover{
+    color: transparent;
+}
+
+.base{
+    /* border: 1px solid red; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.letras{
+    display: flex;
+    color: rgba(6, 6, 6, .7);
+    letter-spacing: 1px;
+    
+}
+
+.iconos{
+    display: flex;
+    flex-wrap: wrap;    
+    width: 450px;
+    height: 600px;
+}
+
+.linea-blockeado{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;    
+    width: 450px;
+    height: 100px;
+   
+}
+.linea{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 450px;
+    height: 100px;
+    /* border: 1px solid green; */
+   
+
+}
+.icono{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    flex-direction: column;
+   
+}
+.icon-fotos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.icon-fotos figcaption{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.principal .iconos .linea .icon-fotos a{
+    list-style: none;
+    text-decoration: none;
+
+} 
+
+figcaption{
+    font-size: smaller;
+    color: gray;
+}
+.linea .icono{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 18px;
+    /* border: 1px solid red; */
+}
+.icono img{
+    border-radius: 18px;
+}
+.dock{
+    background-color: rgba(128, 128, 128, .55);
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+
+}
+.blockeado,
+.principal{
+    padding-top: 100px;
+}
+
+.icono:hover{
+    transform: scale(1.1);
+    
+}
+
+
+
+.iphone-blockeado{
+    width: 450px;
+    height: 100%;
+    border-radius: 18px;
+    border: 2px solid gainsboro;
+    background-image: url(https://i.postimg.cc/44MbLjQ3/Blockeada.jpg);
+    background-size: cover;
+    margin-bottom: 10px;    
+}
+.iphone-codigo{
+    width: 450px;
+    height: 100%;
+    border-radius: 15px;
+    border: 2px solid gainsboro;
+    /* background-image: url(../Iconos/Blockeada.JPG); */
+    background-size: cover;
+    margin-bottom: 10px;
+    background-color: rgba(6, 6, 6, .7);
+
+}
+.desblockear{
+    width: 450px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: rgba(0, 0, 0, .75);
+
+}
+
+/* #text{
+    display: none;
+}
+
+#show:hover #text{
+    display: inline;
+    display: flex;
+} */
+
+
+.iconos-blockeado{
+    display: flex;
+    flex-wrap: wrap;
+    width: 450px;
+    height: 700px;
+    /* border: 1px solid red; */
+}
+.iconos-codigo{
+    display: flex;
+    flex-wrap: wrap;
+    width: 450px;
+    height: 100%; 
+    
+}
+.mensaje-codigo{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 450px;
+    height: 100px;
+}
+
+
+
+.reloj-blockeado p{
+    font-size: 80px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: flex-end;
+}
+
+.fecha-blockeado p{
+    font-size: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    
+    margin: 0;
+}
+.fecha-blockeado{
+    display: flex;
+    align-items: flex-start;
+}
+
+
+.desblockear p{
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 10px;
+
+}
+footer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    
+}
+
+
+#firma1{
+    position: absolute;
+    z-index: 10;
+}
+
+/* aqui empieza landscape */
+
+
+
+#landscape{
+    width: 750px;
+    height: 450px;
+    border: 2px solid  gainsboro;
+    margin-top: 100px;
+    /* margin-bottom: 100px;
+     */
+    border-radius: 18px;
+    flex-direction: row;
+    background: url(https://i.postimg.cc/pLMQx87b/Background.jpg);
+    background-size: 300px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+
+}
+body .iphone-landscape{
+    width: inherit;
+    height: inherit;
+    border-radius: 18px;
+    /* border: 1px solid gainsboro; */
+    display: flex;
+    flex-direction: inherit;
+    
+}
+
+.land-barra{
+    display: flex;
+    width: inherit;
+    height: 20px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 6px;
+    /* border: 1px solid red; */
+    
+}
+.pantalla{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid green; */
+}
+
+.land-pantalla{
+    width: inherit;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    /* border: 1px solid pink; */
+}
+.fila{
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 1px solid black; */
+    height: 100px;
+    align-items: center;
+}
+
+.land-dock{
+    width: 100px;
+    height: inherit;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-bottom-right-radius: 18px;
+    border-top-right-radius: 18px;
+    background-color: rgba(128, 128, 128, .55);
+}
+.espacio{
+    width: 100%;
+    height: 20px;
+    margin-top: 6px;
+    /* border: 1px solid red; */
+}
+.dock1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+}
+.dots{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.dots i{
+    font-size: 10px;
+    color:  rgba(128, 128, 128, .55);
+    margin: 3px;
+}
+/* ---------------Aqui inicia Carpeta------------------- */
+.carpeta{
+    width: 70px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.carpeta:hover{
+    transform: scale(1.1);
+}
+
+.icono-espacio{
+    width: 70px;
+    height: 70px;
+    border: 1px solid gray;
+    border-radius: 18px;
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.carpeta figcaption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* text-decoration: none; */
+   
+
+}
+
+
+
+.fila-carpeta{
+    width: 100%;
+    height: 31%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    /* border: 1px solid red; */
+}
+.icon-carpeta{
+    width: 18px;
+    height: 18px;
+    border-radius: 5px;
+    margin: 1px;
+    /* border: 1px solid green; */
+}
+.icon-carpeta img{
+    border-radius: 5px;
+}
+.fila a{
+    list-style: none;
+    text-decoration: none;
+
+}
+
+
